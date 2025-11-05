@@ -1,0 +1,12 @@
+Fitted Order of Convergence (slopes from log-log plots)
+============================================================
+
+1D Methods:
+  backward2: 1.881
+  central: 2.000
+  richardson(central): 3.955
+
+2D Methods:
+  g_x: nan
+  g_xy: nan
+  g_y: nan

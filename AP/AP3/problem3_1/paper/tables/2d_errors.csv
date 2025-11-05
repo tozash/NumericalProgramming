@@ -1,0 +1,16 @@
+variable,method,h,value,exact,abs_error
+g_x,central,0.5,6.0,6.0,0.0
+g_x,central,0.25,6.0,6.0,0.0
+g_x,central,0.125,6.0,6.0,0.0
+g_x,central,0.0625,6.0,6.0,0.0
+g_x,central,0.03125,6.0,6.0,0.0
+g_y,central,0.5,7.0,7.0,0.0
+g_y,central,0.25,7.0,7.0,0.0
+g_y,central,0.125,7.0,7.0,0.0
+g_y,central,0.0625,7.0,7.0,0.0
+g_y,central,0.03125,7.0,7.0,0.0
+g_xy,central,0.5,2.0,2.0,0.0
+g_xy,central,0.25,2.0,2.0,0.0
+g_xy,central,0.125,2.0,2.0,0.0
+g_xy,central,0.0625,2.0,2.0,0.0
+g_xy,central,0.03125,2.0,2.0,0.0
