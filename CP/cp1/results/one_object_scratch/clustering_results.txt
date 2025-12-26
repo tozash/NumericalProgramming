@@ -1,0 +1,5 @@
+Norm L2: Labels [1 0 1 1]
+Norm L1: Labels [0 1 0 0]
+Norm Linf: Labels [0 1 0 0]
+Norm WeightedL2: Labels [1 0 1 1]
+Sklearn (L2): Labels [1 0 1 1]
