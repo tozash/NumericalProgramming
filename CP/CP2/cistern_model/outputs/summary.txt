@@ -1,0 +1,21 @@
+=== Simulation Summary ===
+Time Step dt: 0.5 min
+Total Time T: 30.0 min
+
+Method: Fixed-Point Iteration
+  Runtime: 0.0156 s
+  Total Nonlinear Iters: 661
+  Avg Iters/Step: 11.02
+  Failed Steps: 0
+  Max Error vs Ref (h): 4.11e-03
+  Max Error vs Ref (v): 3.36e-02
+  Final State: h=0.4139, v=0.3860
+
+Method: Newton-Gauss-Seidel
+  Runtime: 0.0112 s
+  Total Nonlinear Iters: 146
+  Avg Iters/Step: 2.43
+  Failed Steps: 0
+  Max Error vs Ref (h): 4.11e-03
+  Max Error vs Ref (v): 3.36e-02
+  Final State: h=0.4139, v=0.3860
