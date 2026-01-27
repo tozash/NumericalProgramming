@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/drone_show/__init__.py
+src/drone_show/config.py
+src/drone_show/utils.py
+src/drone_show.egg-info/PKG-INFO
+src/drone_show.egg-info/SOURCES.txt
+src/drone_show.egg-info/dependency_links.txt
+src/drone_show.egg-info/requires.txt
+src/drone_show.egg-info/top_level.txt
+tests/test_smoke.py

@@ -1,0 +1,26 @@
+[project]
+name = "drone-show"
+version = "0.1.0"
+description = "Illuminated Drone Show Simulation"
+authors = [{name = "User", email = "user@example.com"}]
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "opencv-python",
+    "pillow",
+    "tqdm",
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
