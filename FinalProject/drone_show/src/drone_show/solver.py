@@ -4,6 +4,9 @@ from tqdm import tqdm
 def rk4_step(rhs, t, y, dt, *args):
     """
     Performs a single step of the Runge-Kutta 4 integration method.
+
+    This is the classical explicit RK4 scheme. See `docs/numerical_methods.md`
+    for the Butcher tableau, truncation error orders, and stability notes.
     
     Args:
         rhs (callable): Function rhs(t, y, *args) returning dy/dt.
@@ -25,6 +28,10 @@ def rk4_step(rhs, t, y, dt, *args):
 def solve_ivp_rk4(rhs, t_span, y0, dt, args=(), pbar=False):
     """
     Solves an initial value problem using the RK4 method with fixed time steps.
+
+    Note: classical explicit RK4 (not A-stable). Practical stability in this project
+    is achieved via damping, bounded forces, and conservative dt selection; see
+    `docs/numerical_methods.md` and the dt-related failure case demonstration.
     
     Args:
         rhs (callable): Function rhs(t, y, *args) returning dy/dt.

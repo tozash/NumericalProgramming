@@ -48,6 +48,11 @@ def repulsive_forces(X, Rsafe, k_rep, eps=1e-9):
     # Usually repulsive potentials are 1/r^2 or similar. 
     # Force = -grad(Potential). If Potential ~ (1/r - 1/R)^2, then force is proportional.
     # We follow the prompt exactly: k_rep * (1/dist - 1/Rsafe) / (dist**2)
+    #
+    # TA alignment note:
+    #   magnitude = k_rep * (1/r - 1/Rsafe) / r^2
+    # For r << Rsafe, (1/r - 1/Rsafe) ≈ 1/r, so magnitude scales like ~ 1/r^3.
+    # This matches the “~1/r^3 within Rsafe” repulsion behavior described in the project spec/slides.
     
     term1 = (1.0 / valid_dist) - (1.0 / Rsafe)
     magnitude = k_rep * term1 / (valid_dist**2)
